@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8862F33719E3B14F0079250D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862F33619E3B14F0079250D /* AccountViewController.swift */; };
+		8862F33919E3B1E90079250D /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862F33819E3B1E90079250D /* TrendingViewController.swift */; };
 		887EE08D19DB87430021AA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EE08C19DB87430021AA99 /* AppDelegate.swift */; };
 		887EE08F19DB87430021AA99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EE08E19DB87430021AA99 /* ViewController.swift */; };
 		887EE09219DB87430021AA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887EE09019DB87430021AA99 /* Main.storyboard */; };
 		887EE09419DB87430021AA99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887EE09319DB87430021AA99 /* Images.xcassets */; };
 		887EE09719DB87430021AA99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887EE09519DB87430021AA99 /* LaunchScreen.xib */; };
 		887EE0A319DB87430021AA99 /* ios_course_tumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EE0A219DB87430021AA99 /* ios_course_tumblrTests.swift */; };
+		88CA6F5819E3A0EB00A4ACB7 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6F5719E3A0EB00A4ACB7 /* TabViewController.swift */; };
+		88CA6F5A19E3A1D300A4ACB7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6F5919E3A1D300A4ACB7 /* HomeViewController.swift */; };
+		88CA6F5C19E3A2DB00A4ACB7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6F5B19E3A2DB00A4ACB7 /* SearchViewController.swift */; };
+		88CA6F5E19E3A31800A4ACB7 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6F5D19E3A31800A4ACB7 /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8862F33619E3B14F0079250D /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		8862F33819E3B1E90079250D /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 		887EE08719DB87430021AA99 /* ios-course-tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-course-tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887EE08B19DB87430021AA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887EE08C19DB87430021AA99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		887EE09C19DB87430021AA99 /* ios-course-tumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-course-tumblrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887EE0A119DB87430021AA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887EE0A219DB87430021AA99 /* ios_course_tumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_course_tumblrTests.swift; sourceTree = "<group>"; };
+		88CA6F5719E3A0EB00A4ACB7 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		88CA6F5919E3A1D300A4ACB7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		88CA6F5B19E3A2DB00A4ACB7 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		88CA6F5D19E3A31800A4ACB7 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,12 @@
 				887EE08C19DB87430021AA99 /* AppDelegate.swift */,
 				887EE08E19DB87430021AA99 /* ViewController.swift */,
 				887EE09019DB87430021AA99 /* Main.storyboard */,
+				8862F33819E3B1E90079250D /* TrendingViewController.swift */,
+				8862F33619E3B14F0079250D /* AccountViewController.swift */,
+				88CA6F5D19E3A31800A4ACB7 /* ComposeViewController.swift */,
+				88CA6F5B19E3A2DB00A4ACB7 /* SearchViewController.swift */,
+				88CA6F5919E3A1D300A4ACB7 /* HomeViewController.swift */,
+				88CA6F5719E3A0EB00A4ACB7 /* TabViewController.swift */,
 				887EE09319DB87430021AA99 /* Images.xcassets */,
 				887EE09519DB87430021AA99 /* LaunchScreen.xib */,
 				887EE08A19DB87430021AA99 /* Supporting Files */,
@@ -212,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CA6F5C19E3A2DB00A4ACB7 /* SearchViewController.swift in Sources */,
+				8862F33919E3B1E90079250D /* TrendingViewController.swift in Sources */,
+				88CA6F5819E3A0EB00A4ACB7 /* TabViewController.swift in Sources */,
+				8862F33719E3B14F0079250D /* AccountViewController.swift in Sources */,
 				887EE08F19DB87430021AA99 /* ViewController.swift in Sources */,
+				88CA6F5E19E3A31800A4ACB7 /* ComposeViewController.swift in Sources */,
 				887EE08D19DB87430021AA99 /* AppDelegate.swift in Sources */,
+				88CA6F5A19E3A1D300A4ACB7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +429,7 @@
 				887EE0A819DB87430021AA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		887EE0A919DB87430021AA99 /* Build configuration list for PBXNativeTarget "ios-course-tumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				887EE0AB19DB87430021AA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
